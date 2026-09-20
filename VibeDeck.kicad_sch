@@ -1505,6 +1505,16 @@
 		)
 		(uuid "096dc19b-434f-405c-9afe-bc83fb654c19")
 	)
+	(label "3V3"
+		(at 76.2 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cfcc1ec-cffd-479e-90b0-b51d94bb78d6")
+	)
 	(label "ROW3"
 		(at 35.56 83.82 0)
 		(effects
@@ -1514,6 +1524,16 @@
 			(justify left bottom)
 		)
 		(uuid "1f6c6518-bbd8-4084-b8ae-2df22900091e")
+	)
+	(label "GND"
+		(at 76.2 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ee141f2-80ce-4dd9-aa54-7114af17342c")
 	)
 	(label "ROW1"
 		(at 190.5 76.2 0)
@@ -1815,6 +1835,16 @@
 		)
 		(uuid "e5f9177f-5139-48a3-863c-5189446da2ed")
 	)
+	(label "SCL"
+		(at 35.56 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8bf1b9a-c9ee-48e4-b27d-cb205b7f01ab")
+	)
 	(label "ENC_A"
 		(at 129.54 35.56 0)
 		(effects
@@ -1824,6 +1854,16 @@
 			(justify left bottom)
 		)
 		(uuid "eed01d9a-a60a-4751-b943-bb6afd39944e")
+	)
+	(label "SDA"
+		(at 35.56 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff17c7f4-53c2-415d-b9f1-d615fc851123")
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
