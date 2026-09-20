@@ -1,4 +1,4 @@
-# VibeDec
+# VibeDeck
 A custom 9-key programmable macropad built around the XIAO RP2040. # VibeDeck 🎛️
 
 VibeDeck is a small 9key macropad that I am currently designing and building from scratch.
