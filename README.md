@@ -31,13 +31,13 @@ Currently working on the schematics and layout for the PCB. This is also my firs
 
 # Why?
 
-I've had an urge to make my own macropad for a while and I didn't want to just buy one so why not make one (and possibly suffer in the process)? 💀
+I've had an urge to make hardware of my own witgout paying money coz iam broke. thanks to hackclub stardance for the hackpad campaing
 
 This is what led to the creation of VibeDeck.
 
 # Project Structure
 
-The KiCad project files can be found in the `hardware` directory.
+The KiCad project files can be found in the `root' directory.
 
 Further work and documentation will be added as the project grows. This includes firmware, PCB, case design, documentation, etc.
 
