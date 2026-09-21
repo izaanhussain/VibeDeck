@@ -76,14 +76,3 @@ VibeDeck/
 │
 └── README.md
 
-Credits
-PCB: Designed by me in KiCad.
-Case: Based on the Custom Micropad by Ben Greenberg, then edited by me for VibeDeck.
-Project challenge: Hack Club Hackpad / Stardance
-License
-
-This project is shared for educational and personal use.
-
-The case design is based on the original work by Ben Greenberg. Please refer to the original repository for its licensing and attribution requirements.
-
-More documentation, firmware and manufacturing files will be added as the project is completed.
