@@ -34,6 +34,7 @@ This project is being developed as part of **Hack Club's Hackpad / Stardance** p
 
 ### PCB 
 <img width="781" height="747" alt="image" src="https://github.com/user-attachments/assets/c8dc0ee8-35f0-4077-8e54-6de34b0527cf" />
+<img width="1112" height="783" alt="image" src="https://github.com/user-attachments/assets/3391d56a-cd83-4ed6-94f9-c6a8c647cdad" />
 
 - Schematic completed
 - PCB layout completed
