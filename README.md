@@ -71,7 +71,8 @@ I used the [Custom Micropad](https://github.com/BenGreenberg07/custom-micropad) 
 
 
 
-
+## Production 
+ The production files are in the "production" folder where you can find the gerbers.zip
 
 
 ## Firmware (KMK / CircuitPython)
@@ -84,12 +85,18 @@ VibeDeck uses KMK firmware with CircuitPython, located in the `firmware` directo
 
 ```text
 VibeDeck/
-├── CAD/              # 3D models
-├── PCB/              # Hardware schematics and PCB layout 
-├── firmware/         
-│   └── main.py       # fireware code
-├── images/           
-└── README.md         
+├── CAD/
+│   ├── VibeDeck_Bottom.step
+│   ├── VibeDeck_Top.step
+│   └── VibeDeck Complete Case.FCStd
+├── Firmware/
+│   └── main.py
+├── PCB/
+│   ├── VibeDeck.kicad_pcb
+│   └── Vibedeck schematic.kicad_sch
+├── production/
+│   └── gerbers.zip
+└── README.md     
 ```
 
 ## What I learned
