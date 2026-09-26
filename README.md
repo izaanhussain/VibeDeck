@@ -1,80 +1,113 @@
 # VibeDeck 
 
-VibeDeck is a custom 9-key programmable macropad built around the **Seeed XIAO RP2040**.
 
-The goal is to make a compact and simple macropad with:
 
-- 9 mechanical keys arranged in a 3×3 matrix
-- A single indicator LED
-- USB-C connectivity through the XIAO RP2040
-- A custom PCB designed in KiCad
-- An edited case exported as STEP files
+VibeDeck is my 9-key macropad, built for Hack Club's Hackpad / Stardance challenge
 
-This project is being developed as part of **Hack Club's Hackpad / Stardance** project.
 
-## Features
 
-- 9-key mechanical keyboard matrix
-- 9 × 1N4148 signal diodes
+I wanted to make something small and simple that I could design and build myself, and decided to use a Seeed XIAO RP2040 with 9 mechanical switches.
+
+
+
+## What's in it
+
+
+
+- 9 mechanical switches
+
+
+
 - Seeed XIAO RP2040
-- Single indicator LED
-- Custom PCB designed in KiCad
-- Custom-edited case exported as Step files
-
-## Bill of Materials
-
-- 9 × mechanical keyboard switches
-- 9 × 1N4148 signal diodes
-- 1 × Seeed XIAO RP2040
-- 1 × indicator LED
-- 1 × custom PCB
-- 1 × custom case
-
-## Current Status
-
-### PCB 
-<img width="781" height="747" alt="image" src="https://github.com/user-attachments/assets/c8dc0ee8-35f0-4077-8e54-6de34b0527cf" />
-<img width="1112" height="783" alt="image" src="https://github.com/user-attachments/assets/3391d56a-cd83-4ed6-94f9-c6a8c647cdad" />
-
-- Schematic completed
-- PCB layout completed
-- 3×3 key matrix routed
-- Indicator LED connected
-- PCB design checked with KiCad DRC
-- **0 DRC errors**
-- **0 unconnected items**
-
-### Case
-<img width="1010" height="752" alt="image" src="https://github.com/user-attachments/assets/bfff88c0-41ee-4a8a-8579-e28349e070ee" />
 
 
-The case geometry is based on the **Custom Micropad** case design by **Ben Greenberg**.
 
-I did **not** upload the original case directly. I edited the case geometry for VibeDeck and exported my edited top and bottom case parts as STEP files.
+- 9x 1N4148 diodes
 
-Original case design:
 
-[Ben Greenberg's Custom Micropad](https://github.com/BenGreenberg07/custom-micropad)
 
-### Firmware
+- 1x SK6812MINI RGB LED
 
-Firmware is still to be added.
 
-### Manufacturing Files
 
-Gerber/manufacturing files are still to be added.
+- USB-C
 
-## Project Structure
 
-```text
-VibeDeck/
-├── CAD/
-│   ├── VibeDeck_Top.step
-│   └── VibeDeck_Bottom.step
-│
-├── PCB/
-│   ├── VibeDeck.kicad_pcb
-│   └── Vibedeck schematic.kicad_sch
-│
-└── README.md
 
+- Custom PCB (KiCad)
+
+
+
+- Custom case (FreeCAD)
+
+
+
+## The PCB
+
+
+
+Designed in KiCad; has 9 individual switch inputs and 1 SK6812MINI RGB LED input. KiCad's DRC is pretty strict, but I managed to fix all the errors and got a good result
+
+
+
+<img width="657" height="672" alt="image" src="https://github.com/user-attachments/assets/0b1e42f6-eaed-405a-95eb-6a3169754674" />
+<img width="696" height="682" alt="image" src="https://github.com/user-attachments/assets/7a1669e1-019d-42bf-8736-22a7cae94044" />
+<img width="618" height="675" alt="image" src="https://github.com/user-attachments/assets/b31bbd06-1c76-4abf-b77a-7c5738970958" />
+
+
+
+
+
+## The Case
+
+
+
+I used the [Custom Micropad](https://github.com/BenGreenberg07/custom-micropad) case by Ben Greenberg as a base for my own design, modifying it to fit my VibeDeck PCB. I exported my modified top and bottom parts as STEP files.
+
+
+
+<img width="1037" height="726" alt="image" src="https://github.com/user-attachments/assets/a0dc9cc3-7058-44f3-8926-e2c60d1d4789" />
+
+
+
+## Firmware (KMK / CircuitPython)
+
+
+
+VibeDeck uses KMK firmware with CircuitPython, located in the `firmware` directory. The 9 keys are directly connected to individual GPIOs on the XIAO RP2040, and the SK6812MINI is connected separately.
+
+
+
+## What I learned
+
+
+
+This was my first ever PCB, so I learned a lot on the way. KiCad's PCB routing and DRC tools were a bit difficult to get used to, but I eventually learned how to make a complete working design! I also learned how to use FreeCAD and how the case parts interact with the PCB.
+
+
+
+The case design was also quite challenging, and required many iterations before I was satisfied with the result.
+
+
+
+## Credits
+
+
+
+| Category | Contributor(s) |
+
+
+
+| --- | --- |
+
+
+
+| PCB + Electronics | Me |
+
+
+
+| Case | [Ben Greenberg's Custom Micropad](https://github.com/BenGreenberg07/custom-micropad) + Me |
+
+
+
+| Hack Club's Hackpad / Stardance challenge | [Hack Club](https://hackclub.com/) |
