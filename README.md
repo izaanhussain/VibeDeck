@@ -1,4 +1,4 @@
-# VibeDeck 🎛️
+# VibeDeck 
 
 VibeDeck is a custom 9-key programmable macropad built around the **Seeed XIAO RP2040**.
 
@@ -19,9 +19,7 @@ This project is being developed as part of **Hack Club's Hackpad / Stardance** p
 - Seeed XIAO RP2040
 - Single indicator LED
 - Custom PCB designed in KiCad
-- Custom-edited case exported as STEP
-
-> **Note:** VibeDeck does not have a rotary encoder or OLED display.
+- Custom-edited case exported as Step files
 
 ## Bill of Materials
 
@@ -34,7 +32,8 @@ This project is being developed as part of **Hack Club's Hackpad / Stardance** p
 
 ## Current Status
 
-### PCB
+### PCB 
+<img width="781" height="747" alt="image" src="https://github.com/user-attachments/assets/c8dc0ee8-35f0-4077-8e54-6de34b0527cf" />
 
 - Schematic completed
 - PCB layout completed
@@ -45,6 +44,8 @@ This project is being developed as part of **Hack Club's Hackpad / Stardance** p
 - **0 unconnected items**
 
 ### Case
+<img width="1010" height="752" alt="image" src="https://github.com/user-attachments/assets/bfff88c0-41ee-4a8a-8579-e28349e070ee" />
+
 
 The case geometry is based on the **Custom Micropad** case design by **Ben Greenberg**.
 
