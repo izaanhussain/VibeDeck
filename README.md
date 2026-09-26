@@ -22,10 +22,6 @@ I wanted to make something small and simple beacause i was new to these so that 
 
 
 
-- 9x 1N4148 diodes
-
-
-
 - 1x SK6812MINI RGB LED
 
 
