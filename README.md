@@ -75,7 +75,7 @@ I used the [Custom Micropad](https://github.com/BenGreenberg07/custom-micropad) 
 
 
 
-VibeDeck uses KMK firmware with CircuitPython, located in the `firmware` directory. The 9 keys are directly connected to individual GPIOs on the XIAO RP2040, and the SK6812MINI is connected separately.
+VibeDeck uses KMK firmware with CircuitPython, located in the `Firmware` directory. The 9 keys are directly connected to individual GPIOs on the XIAO RP2040, and the SK6812MINI is connected separately.
 
 ## File Structure
 
@@ -83,16 +83,16 @@ VibeDeck uses KMK firmware with CircuitPython, located in the `firmware` directo
 VibeDeck/
 ├── CAD/
 │   ├── VibeDeck_Bottom.step
-│   ├── VibeDeck_Top.step
-│   └── VibeDeck Complete Case.FCStd
+│   └── VibeDeck_Top.step
 ├── Firmware/
 │   └── main.py
 ├── PCB/
 │   ├── VibeDeck.kicad_pcb
-│   └── Vibedeck schematic.kicad_sch
+│   └── Vibedeck_schematic.kicad_sch
 ├── production/
 │   └── gerbers.zip
-└── README.md     
+├── bom.csv
+└── README.md
 ```
 
 ## What I learned
