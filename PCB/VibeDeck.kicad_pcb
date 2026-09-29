@@ -143,7 +143,7 @@
 		)
 		(path "/31f9cb9a-3230-4a1a-a5eb-945d1dd95027")
 		(sheetname "/")
-		(sheetfile "PCBMacropad.kicad_sch")
+		(sheetfile "Vibedeck schematic.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
