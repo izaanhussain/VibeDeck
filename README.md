@@ -22,7 +22,7 @@ I wanted to make something small and simple beacause i was new to these so that 
 
 
 
-- 1x SK6812MINI RGB LED
+- 1x SK6812MINI-E RGB LED
 
 
 
