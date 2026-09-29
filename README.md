@@ -35,8 +35,17 @@ I wanted to make something small and simple beacause i was new to these so that 
 
 
 - Custom case (FreeCAD)
+  
 
+## Bill of Materials (BOM)
 
+| Component | Quantity | Source |
+|---|---:|---|
+| Seeed Studio XIAO RP2040 | 1 | [Hack Club Hackpad Kit](https://blueprint.hackclub.com/hackpad/parts) |
+| Cherry MX-compatible mechanical switches | 9 | [Hack Club Hackpad Kit](https://blueprint.hackclub.com/hackpad/parts) |
+| SK6812 MINI-E RGB LED | 1 | [Hack Club Hackpad Kit](https://blueprint.hackclub.com/hackpad/parts) |
+
+All three component types are from the Hack Club hackpad kit.
 
 ## The PCB
 
