@@ -8,6 +8,8 @@ VibeDeck is my 9-key macropad, built for Hack Club's Hackpad / stardance challen
 
 I wanted to make something small and simple beacause i was new to these so that I could design and build myself, and decided to use a Seeed XIAO RP2040 as mentioned in (hackclubs docs )with 9 mechanical switches.
 
+ ![VibeDeck Render](Vibedeckrender.png)
+
 
 
 ## What's in it
