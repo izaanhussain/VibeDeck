@@ -110,7 +110,7 @@ VibeDeck/
 
 
 
-This was my first ever PCB, so I learned a lot on the way. KiCad's PCB routing and DRC tools were a bit difficult to get use at first but i eventually learned how to make a complete working design! I also learned how to use FreeCAD and how the case parts interact with the PCB.
+This was my first ever PCB, so I learned a lot on the way. KiCad's PCB routing and DRC tools were a bit difficult to get use at first but however i learned how to make a complete working design! I also learned how to use FreeCAD and how the case parts interact with the PCB.
 
 
 
@@ -119,12 +119,7 @@ The case design was also quite challenging, and required many iterations before 
 
 
 ## Credits
-Almost evrything is made by me except the case CAD i edited someone else's CAD files I did not use them directly. i DONt know how to write a readme and this is not AI. 
-
-
-
-| Case | [Ben Greenberg's Custom Micropad](https://github.com/BenGreenberg07/custom-micropad) + Me |
-
+everything is made by me just the case as mentioned in the case section. i DONt know how to write a readme and this is not AI. 
 
 
 | Hack Club's Hackpad / Stardance challenge | [Hack Club](https://hackclub.com/) |
