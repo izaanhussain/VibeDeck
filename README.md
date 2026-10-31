@@ -10,6 +10,7 @@ I wanted to make something small and simple beacause i was new to these so that 
 
  ![VibeDeck Render](Vibedeckrender.png)
 
+ <img width="403" height="541" alt="image" src="https://github.com/user-attachments/assets/fda0962f-7a47-4871-a6dc-a63cc0011614" />
 
 
 ## What's in it
@@ -110,7 +111,7 @@ VibeDeck/
 
 
 
-This was my first ever PCB, so I learned a lot on the way. KiCad's PCB routing and DRC tools were a bit difficult to get use at first but however i learned how to make a complete working design! I also learned how to use FreeCAD and how the case parts interact with the PCB.
+This was my first ever PCB, so I learned a lot on the way. KiCad's PCB routing and DRC tools were a bit difficult to get use at first but however i learned how to make a complete working design! I also learned how to use FreeCAD and how the case parts interact with the PCB. The projecy=t is fully completed and the given code works.
 
 
 
@@ -119,7 +120,7 @@ The case design was also quite challenging, and required many iterations before 
 
 
 ## Credits
-everything is made by me just the case as mentioned in the case section. i DONt know how to write a readme and this is not AI. 
+everything is made by me just the case as mentioned in the case section. i DONt know how to write a readme and this is not AI. Thanks to stardance for sponsoring this project and many more 
 
 
 | Hack Club's Hackpad / Stardance challenge | [Hack Club](https://hackclub.com/) |
